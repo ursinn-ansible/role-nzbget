@@ -1,8 +1,8 @@
 ---
-app_nzbget_enabled: false
-app_nzbget_puid: '16704'
-app_nzbget_pgid: '16704'
-app_nzbget_tz: "Europe/Zurich"
-app_nzbget_dir: "/opt/app-nzbget"
-app_nzbget_user: "nzbget"
-app_nzbget_pass: "tegbzn6789"
+role_nzbget_image: 'lscr.io/linuxserver/nzbget'
+role_nzbget_container: 'nzbget'
+role_nzbget_puid: '1000'
+role_nzbget_pgid: '1000'
+role_nzbget_tz: 'Europe/Zurich'
+role_nzbget_dir: '/opt/app-nzbget'
+role_nzbget_network: 'app-network'
